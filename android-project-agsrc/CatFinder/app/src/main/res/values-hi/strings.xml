@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">बिल्ली खोजक</string>
+    <string name="find_a_cat_button">एक बिल्ली का पता लगाएं</string>
+    <string name="favorite_cat">पसंदीदा बिल्ली</string>
+    <string name="cat_fact">बिल्ली तथ्य: </string>
+    <string name="cat_fact_textview"></string>
+    <string name="skip">छोड़</string>
+    <string name="petdetails_appbar_title">बिल्ली मिली</string>
+    <string name="petdetails_toolbar_text_view">बिल्लियों का पता लगाएं</string>
+    <string name="search">खोज</string>
+</resources>

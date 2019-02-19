@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CatFinder</string>
+    <string name="find_a_cat_button">FIND A CAT</string>
+    <string name="favorite_cat">FAVORITE CAT</string>
+    <string name="cat_fact">Cat Fact : </string>
+    <string name="cat_fact_textview"></string>
+    <string name="skip">Skip</string>
+    <string name="petdetails_appbar_title">CAT FOUND</string>
+    <string name="petdetails_toolbar_text_view">Find Cats Near You</string>
+    <string name="search">Search</string>
+</resources>

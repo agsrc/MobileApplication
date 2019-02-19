@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E48EF824F7D1A6052E123606 /* Pods_METRO_EXPLORER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C21D5DEE6CA604BCF42C8D4 /* Pods_METRO_EXPLORER.framework */; };
+		F617745321C2CE320051891A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617745221C2CE320051891A /* AppDelegate.swift */; };
+		F617745521C2CE320051891A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617745421C2CE320051891A /* ViewController.swift */; };
+		F617745821C2CE320051891A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F617745621C2CE320051891A /* Main.storyboard */; };
+		F617745A21C2CE340051891A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F617745921C2CE340051891A /* Assets.xcassets */; };
+		F617745D21C2CE340051891A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F617745B21C2CE340051891A /* LaunchScreen.storyboard */; };
+		F617746821C2CE350051891A /* METRO_EXPLORERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617746721C2CE350051891A /* METRO_EXPLORERTests.swift */; };
+		F617747321C2CE350051891A /* METRO_EXPLORERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617747221C2CE350051891A /* METRO_EXPLORERUITests.swift */; };
+		F617748521C2D0490051891A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617748421C2D0490051891A /* MenuViewController.swift */; };
+		F617748B21C2DFA50051891A /* WmataAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617748A21C2DFA50051891A /* WmataAPIManager.swift */; };
+		F617748F21C2F7640051891A /* WmataAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617748E21C2F7640051891A /* WmataAPIResponse.swift */; };
+		F617749121C312ED0051891A /* StationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617749021C312ED0051891A /* StationsTableViewController.swift */; };
+		F617749321C33A460051891A /* YelpAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617749221C33A460051891A /* YelpAPIManager.swift */; };
+		F617749521C342D20051891A /* YelpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617749421C342D20051891A /* YelpResponse.swift */; };
+		F66ECBF021C4E5A000791C0E /* NearestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ECBEF21C4E5A000791C0E /* NearestTableViewController.swift */; };
+		F66ECBF221C4FAE900791C0E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ECBF121C4FAE900791C0E /* LocationManager.swift */; };
+		F6BCD5E321C3708400D7FF81 /* YelpItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5E221C3708400D7FF81 /* YelpItemsViewController.swift */; };
+		F6BCD5E521C37FE700D7FF81 /* LandmarkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5E421C37FE700D7FF81 /* LandmarkDetails.swift */; };
+		F6BCD5EA21C44AA700D7FF81 /* YelpItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5E921C44AA700D7FF81 /* YelpItemsTableViewCell.swift */; };
+		F6BCD5EC21C4723700D7FF81 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5EB21C4723700D7FF81 /* FavoriteViewController.swift */; };
+		F6BCD5EE21C474E100D7FF81 /* LandmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5ED21C474E000D7FF81 /* LandmarkViewController.swift */; };
+		F6BCD5F021C47A2100D7FF81 /* FavPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5EF21C47A2000D7FF81 /* FavPersistenceManager.swift */; };
+		F6BCD5F221C47B0400D7FF81 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5F121C47B0400D7FF81 /* Landmark.swift */; };
+		F6BCD5F421C4865C00D7FF81 /* FavsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCD5F321C4865C00D7FF81 /* FavsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F617746421C2CE350051891A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F617744721C2CE320051891A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F617744E21C2CE320051891A;
+			remoteInfo = "METRO EXPLORER";
+		};
+		F617746F21C2CE350051891A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F617744721C2CE320051891A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F617744E21C2CE320051891A;
+			remoteInfo = "METRO EXPLORER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C21D5DEE6CA604BCF42C8D4 /* Pods_METRO_EXPLORER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_METRO_EXPLORER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79701AFC7613F8935D214DE7 /* Pods-METRO EXPLORER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-METRO EXPLORER.release.xcconfig"; path = "Pods/Target Support Files/Pods-METRO EXPLORER/Pods-METRO EXPLORER.release.xcconfig"; sourceTree = "<group>"; };
+		895F6C35B7C10A947DEBA03E /* Pods-METRO EXPLORER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-METRO EXPLORER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-METRO EXPLORER/Pods-METRO EXPLORER.debug.xcconfig"; sourceTree = "<group>"; };
+		F617744F21C2CE320051891A /* METRO EXPLORER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "METRO EXPLORER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F617745221C2CE320051891A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F617745421C2CE320051891A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F617745721C2CE320051891A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F617745921C2CE340051891A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F617745C21C2CE340051891A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F617745E21C2CE340051891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F617746321C2CE340051891A /* METRO EXPLORERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "METRO EXPLORERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F617746721C2CE350051891A /* METRO_EXPLORERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = METRO_EXPLORERTests.swift; sourceTree = "<group>"; };
+		F617746921C2CE350051891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F617746E21C2CE350051891A /* METRO EXPLORERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "METRO EXPLORERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F617747221C2CE350051891A /* METRO_EXPLORERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = METRO_EXPLORERUITests.swift; sourceTree = "<group>"; };
+		F617747421C2CE350051891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F617748421C2D0490051891A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F617748A21C2DFA50051891A /* WmataAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WmataAPIManager.swift; sourceTree = "<group>"; };
+		F617748E21C2F7640051891A /* WmataAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WmataAPIResponse.swift; sourceTree = "<group>"; };
+		F617749021C312ED0051891A /* StationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsTableViewController.swift; sourceTree = "<group>"; };
+		F617749221C33A460051891A /* YelpAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIManager.swift; sourceTree = "<group>"; };
+		F617749421C342D20051891A /* YelpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpResponse.swift; sourceTree = "<group>"; };
+		F66ECBEF21C4E5A000791C0E /* NearestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestTableViewController.swift; sourceTree = "<group>"; };
+		F66ECBF121C4FAE900791C0E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F6BCD5E221C3708400D7FF81 /* YelpItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpItemsViewController.swift; sourceTree = "<group>"; };
+		F6BCD5E421C37FE700D7FF81 /* LandmarkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetails.swift; sourceTree = "<group>"; };
+		F6BCD5E921C44AA700D7FF81 /* YelpItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpItemsTableViewCell.swift; sourceTree = "<group>"; };
+		F6BCD5EB21C4723700D7FF81 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		F6BCD5ED21C474E000D7FF81 /* LandmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkViewController.swift; sourceTree = "<group>"; };
+		F6BCD5EF21C47A2000D7FF81 /* FavPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavPersistenceManager.swift; sourceTree = "<group>"; };
+		F6BCD5F121C47B0400D7FF81 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		F6BCD5F321C4865C00D7FF81 /* FavsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F617744C21C2CE320051891A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48EF824F7D1A6052E123606 /* Pods_METRO_EXPLORER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F617746021C2CE340051891A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F617746B21C2CE350051891A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62F5AF7A0221D60491B1131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				895F6C35B7C10A947DEBA03E /* Pods-METRO EXPLORER.debug.xcconfig */,
+				79701AFC7613F8935D214DE7 /* Pods-METRO EXPLORER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E28D7FDAF1BBA6676EEB602B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C21D5DEE6CA604BCF42C8D4 /* Pods_METRO_EXPLORER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F617744621C2CE320051891A = {
+			isa = PBXGroup;
+			children = (
+				F617745121C2CE320051891A /* METRO EXPLORER */,
+				F617746621C2CE350051891A /* METRO EXPLORERTests */,
+				F617747121C2CE350051891A /* METRO EXPLORERUITests */,
+				F617745021C2CE320051891A /* Products */,
+				B62F5AF7A0221D60491B1131 /* Pods */,
+				E28D7FDAF1BBA6676EEB602B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F617745021C2CE320051891A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F617744F21C2CE320051891A /* METRO EXPLORER.app */,
+				F617746321C2CE340051891A /* METRO EXPLORERTests.xctest */,
+				F617746E21C2CE350051891A /* METRO EXPLORERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F617745121C2CE320051891A /* METRO EXPLORER */ = {
+			isa = PBXGroup;
+			children = (
+				F6BCD5E621C44A1E00D7FF81 /* Addons */,
+				F617748021C2CF410051891A /* Managers */,
+				F617748321C2CF930051891A /* ViewControllers */,
+				F617748221C2CF780051891A /* Models */,
+				F617745221C2CE320051891A /* AppDelegate.swift */,
+				F617745621C2CE320051891A /* Main.storyboard */,
+				F617745921C2CE340051891A /* Assets.xcassets */,
+				F617745B21C2CE340051891A /* LaunchScreen.storyboard */,
+				F617745E21C2CE340051891A /* Info.plist */,
+			);
+			path = "METRO EXPLORER";
+			sourceTree = "<group>";
+		};
+		F617746621C2CE350051891A /* METRO EXPLORERTests */ = {
+			isa = PBXGroup;
+			children = (
+				F617746721C2CE350051891A /* METRO_EXPLORERTests.swift */,
+				F617746921C2CE350051891A /* Info.plist */,
+			);
+			path = "METRO EXPLORERTests";
+			sourceTree = "<group>";
+		};
+		F617747121C2CE350051891A /* METRO EXPLORERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F617747221C2CE350051891A /* METRO_EXPLORERUITests.swift */,
+				F617747421C2CE350051891A /* Info.plist */,
+			);
+			path = "METRO EXPLORERUITests";
+			sourceTree = "<group>";
+		};
+		F617748021C2CF410051891A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F66ECBF121C4FAE900791C0E /* LocationManager.swift */,
+				F6BCD5EF21C47A2000D7FF81 /* FavPersistenceManager.swift */,
+				F617748A21C2DFA50051891A /* WmataAPIManager.swift */,
+				F617749221C33A460051891A /* YelpAPIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F617748221C2CF780051891A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6BCD5F121C47B0400D7FF81 /* Landmark.swift */,
+				F617748E21C2F7640051891A /* WmataAPIResponse.swift */,
+				F617749421C342D20051891A /* YelpResponse.swift */,
+				F6BCD5E421C37FE700D7FF81 /* LandmarkDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F617748321C2CF930051891A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F617745421C2CE320051891A /* ViewController.swift */,
+				F617748421C2D0490051891A /* MenuViewController.swift */,
+				F617749021C312ED0051891A /* StationsTableViewController.swift */,
+				F6BCD5E221C3708400D7FF81 /* YelpItemsViewController.swift */,
+				F6BCD5EB21C4723700D7FF81 /* FavoriteViewController.swift */,
+				F6BCD5ED21C474E000D7FF81 /* LandmarkViewController.swift */,
+				F66ECBEF21C4E5A000791C0E /* NearestTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F6BCD5E621C44A1E00D7FF81 /* Addons */ = {
+			isa = PBXGroup;
+			children = (
+				F6BCD5F321C4865C00D7FF81 /* FavsTableViewCell.swift */,
+				F6BCD5E921C44AA700D7FF81 /* YelpItemsTableViewCell.swift */,
+			);
+			path = Addons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F617744E21C2CE320051891A /* METRO EXPLORER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F617747721C2CE350051891A /* Build configuration list for PBXNativeTarget "METRO EXPLORER" */;
+			buildPhases = (
+				630C99EFFC4EA8E951A8A4AF /* [CP] Check Pods Manifest.lock */,
+				F617744B21C2CE320051891A /* Sources */,
+				F617744C21C2CE320051891A /* Frameworks */,
+				F617744D21C2CE320051891A /* Resources */,
+				5E6480245C1EE5424CF7924A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "METRO EXPLORER";
+			productName = "METRO EXPLORER";
+			productReference = F617744F21C2CE320051891A /* METRO EXPLORER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F617746221C2CE340051891A /* METRO EXPLORERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F617747A21C2CE350051891A /* Build configuration list for PBXNativeTarget "METRO EXPLORERTests" */;
+			buildPhases = (
+				F617745F21C2CE340051891A /* Sources */,
+				F617746021C2CE340051891A /* Frameworks */,
+				F617746121C2CE340051891A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F617746521C2CE350051891A /* PBXTargetDependency */,
+			);
+			name = "METRO EXPLORERTests";
+			productName = "METRO EXPLORERTests";
+			productReference = F617746321C2CE340051891A /* METRO EXPLORERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F617746D21C2CE350051891A /* METRO EXPLORERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F617747D21C2CE350051891A /* Build configuration list for PBXNativeTarget "METRO EXPLORERUITests" */;
+			buildPhases = (
+				F617746A21C2CE350051891A /* Sources */,
+				F617746B21C2CE350051891A /* Frameworks */,
+				F617746C21C2CE350051891A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F617747021C2CE350051891A /* PBXTargetDependency */,
+			);
+			name = "METRO EXPLORERUITests";
+			productName = "METRO EXPLORERUITests";
+			productReference = F617746E21C2CE350051891A /* METRO EXPLORERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F617744721C2CE320051891A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Akshay Gupta";
+				TargetAttributes = {
+					F617744E21C2CE320051891A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F617746221C2CE340051891A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F617744E21C2CE320051891A;
+					};
+					F617746D21C2CE350051891A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F617744E21C2CE320051891A;
+					};
+				};
+			};
+			buildConfigurationList = F617744A21C2CE320051891A /* Build configuration list for PBXProject "METRO EXPLORER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F617744621C2CE320051891A;
+			productRefGroup = F617745021C2CE320051891A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F617744E21C2CE320051891A /* METRO EXPLORER */,
+				F617746221C2CE340051891A /* METRO EXPLORERTests */,
+				F617746D21C2CE350051891A /* METRO EXPLORERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F617744D21C2CE320051891A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F617745D21C2CE340051891A /* LaunchScreen.storyboard in Resources */,
+				F617745A21C2CE340051891A /* Assets.xcassets in Resources */,
+				F617745821C2CE320051891A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F617746121C2CE340051891A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F617746C21C2CE350051891A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E6480245C1EE5424CF7924A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-METRO EXPLORER/Pods-METRO EXPLORER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-METRO EXPLORER/Pods-METRO EXPLORER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630C99EFFC4EA8E951A8A4AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-METRO EXPLORER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F617744B21C2CE320051891A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66ECBF021C4E5A000791C0E /* NearestTableViewController.swift in Sources */,
+				F617745521C2CE320051891A /* ViewController.swift in Sources */,
+				F6BCD5EA21C44AA700D7FF81 /* YelpItemsTableViewCell.swift in Sources */,
+				F617748521C2D0490051891A /* MenuViewController.swift in Sources */,
+				F6BCD5F221C47B0400D7FF81 /* Landmark.swift in Sources */,
+				F6BCD5E321C3708400D7FF81 /* YelpItemsViewController.swift in Sources */,
+				F6BCD5F421C4865C00D7FF81 /* FavsTableViewCell.swift in Sources */,
+				F617749121C312ED0051891A /* StationsTableViewController.swift in Sources */,
+				F66ECBF221C4FAE900791C0E /* LocationManager.swift in Sources */,
+				F617748F21C2F7640051891A /* WmataAPIResponse.swift in Sources */,
+				F617749321C33A460051891A /* YelpAPIManager.swift in Sources */,
+				F617745321C2CE320051891A /* AppDelegate.swift in Sources */,
+				F617749521C342D20051891A /* YelpResponse.swift in Sources */,
+				F6BCD5E521C37FE700D7FF81 /* LandmarkDetails.swift in Sources */,
+				F6BCD5EE21C474E100D7FF81 /* LandmarkViewController.swift in Sources */,
+				F6BCD5EC21C4723700D7FF81 /* FavoriteViewController.swift in Sources */,
+				F617748B21C2DFA50051891A /* WmataAPIManager.swift in Sources */,
+				F6BCD5F021C47A2100D7FF81 /* FavPersistenceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F617745F21C2CE340051891A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F617746821C2CE350051891A /* METRO_EXPLORERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F617746A21C2CE350051891A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F617747321C2CE350051891A /* METRO_EXPLORERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F617746521C2CE350051891A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F617744E21C2CE320051891A /* METRO EXPLORER */;
+			targetProxy = F617746421C2CE350051891A /* PBXContainerItemProxy */;
+		};
+		F617747021C2CE350051891A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F617744E21C2CE320051891A /* METRO EXPLORER */;
+			targetProxy = F617746F21C2CE350051891A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F617745621C2CE320051891A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F617745721C2CE320051891A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F617745B21C2CE340051891A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F617745C21C2CE340051891A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F617747521C2CE350051891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F617747621C2CE350051891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F617747821C2CE350051891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895F6C35B7C10A947DEBA03E /* Pods-METRO EXPLORER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35796PS82N;
+				INFOPLIST_FILE = "METRO EXPLORER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gwu.akshay.METRO-EXPLORER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F617747921C2CE350051891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79701AFC7613F8935D214DE7 /* Pods-METRO EXPLORER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35796PS82N;
+				INFOPLIST_FILE = "METRO EXPLORER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gwu.akshay.METRO-EXPLORER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F617747B21C2CE350051891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35796PS82N;
+				INFOPLIST_FILE = "METRO EXPLORERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gwu.akshay.METRO-EXPLORERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/METRO EXPLORER.app/METRO EXPLORER";
+			};
+			name = Debug;
+		};
+		F617747C21C2CE350051891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35796PS82N;
+				INFOPLIST_FILE = "METRO EXPLORERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gwu.akshay.METRO-EXPLORERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/METRO EXPLORER.app/METRO EXPLORER";
+			};
+			name = Release;
+		};
+		F617747E21C2CE350051891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35796PS82N;
+				INFOPLIST_FILE = "METRO EXPLORERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gwu.akshay.METRO-EXPLORERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "METRO EXPLORER";
+			};
+			name = Debug;
+		};
+		F617747F21C2CE350051891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35796PS82N;
+				INFOPLIST_FILE = "METRO EXPLORERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gwu.akshay.METRO-EXPLORERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "METRO EXPLORER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F617744A21C2CE320051891A /* Build configuration list for PBXProject "METRO EXPLORER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617747521C2CE350051891A /* Debug */,
+				F617747621C2CE350051891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617747721C2CE350051891A /* Build configuration list for PBXNativeTarget "METRO EXPLORER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617747821C2CE350051891A /* Debug */,
+				F617747921C2CE350051891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617747A21C2CE350051891A /* Build configuration list for PBXNativeTarget "METRO EXPLORERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617747B21C2CE350051891A /* Debug */,
+				F617747C21C2CE350051891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617747D21C2CE350051891A /* Build configuration list for PBXNativeTarget "METRO EXPLORERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617747E21C2CE350051891A /* Debug */,
+				F617747F21C2CE350051891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F617744721C2CE320051891A /* Project object */;
+}
